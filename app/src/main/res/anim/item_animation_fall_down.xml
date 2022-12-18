@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:duration="500"
+    tools:ignore="ExtraText">
+//перемещение
+    <translate
+        android:fromXDelta="200%"
+        android:toYDelta="0%"
+        android:duration="1500"
+        />
+    /*прозрачность*/
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="3.0"
+        android:duration="4500"/>
+
+</set>
