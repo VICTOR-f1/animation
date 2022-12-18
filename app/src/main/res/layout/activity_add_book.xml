@@ -18,6 +18,8 @@
         android:text="@string/add_boks"
         android:textColor="#E38E0F"
         android:textSize="25sp"
+        android:layoutAnimation="@anim/anim"
+
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -111,6 +113,7 @@
         app:layout_constraintVertical_bias="0.416" />
 
     <EditText
+        android:layoutAnimation="@anim/right_in"
         android:textColor="#7A2222"
         android:id="@+id/editTextTextNUMBER_OF_PAGES"
         android:layout_width="360dp"
@@ -132,6 +135,7 @@
         android:id="@+id/editTextTextEmailAuhtor"
         android:layout_width="360dp"
         android:layout_height="75dp"
+        android:layoutAnimation="@anim/anim"
         android:ems="10"
         android:backgroundTint="@android:color/holo_red_light"
         android:hint="@string/auhtor"
